@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+    background-color: #d3eef5;
+    color: rgb(175, 28, 60);
+}
+
+.container {
+    text-align: center;
+
+    .timer-numbers {
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .timer-buttons {
+        margin: 30px;
+
+        button {
+            font-size: 20px;
+            padding-right: 50px;
+            padding-left: 50px;
+            margin: 10px;
+            color: rgb(175, 28, 60);
+        }
+
+    }
+
+
+}

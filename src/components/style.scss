@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #d3eef5;
+}
+
+.myCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .counter {
+        color: white;
+        text-align: center;
+        background-color: rgb(66, 66, 225);
+        width: 200px;
+        height: 200px;
+
+        .quantity {
+            margin: 40px;           
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .counter-functions {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .plus,
+            .reset,
+            .minus {
+                padding-left: 10px;
+                padding-right: 10px;
+                margin: 10px;
+                border: 2px solid white;
+            }
+
+            .plus:hover,
+            .reset:hover,
+            .minus:hover {
+                cursor: pointer
+            }
+        }
+    }
+}
